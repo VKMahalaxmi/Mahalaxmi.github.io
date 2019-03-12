@@ -1,0 +1,137 @@
+/* Add Styles  */
+body{
+    font-family: "Comic Sans MS",sans-serif;
+    margin: 0;
+}
+/*Main Header */
+.main-header{
+    background-image:url("../Images/backgroundimage.jpg");
+    color: white;
+    padding: 10px;
+    text-align: right;
+    box-shadow: 0 0 10px black;
+    background-size: cover;
+}
+/* Main Nav */
+.main-nav{
+background-color: black;
+    padding: 10px;
+    border: black;
+}
+.main-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    display: inline-block;
+}
+.main-nav a:hover{
+    background-color:orangered;
+}
+/*Section*/
+.home-news-article{
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-image:url("../Images/backgroundimage4.jpg");
+    margin: auto;
+    color: white;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border: black;
+    box-shadow: 0 0 10px black;
+}
+.home-news-article h2{
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+.zoom{
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    overflow: hidden;
+}
+.zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.zoom:hover img{
+    transform: scale(1.2,1.2);
+}
+/* ----------------- Main Footer ------------------ */
+.main-footer{
+    background: linear-gradient(to right, #462100, black,#e89709 );
+    padding: 12px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+.main-footer a{
+    color: orange;
+}
+
+.home-news-section{
+    text-align: center;
+}
+/*-------About Section-------------------*/
+.about-section{
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+.about-article{
+    background: white url("../images/image5.jpeg") no-repeat scroll bottom;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 0 0 10px black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+/* ----------------- Gallery Section ------------------ */
+.gallery-section{
+    text-align: center;
+}
+.gallery-figure{
+    border: 2px solid black;
+    width: 300px;
+    margin: 5px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+}
+.gallery-figure:hover{
+    box-shadow: 0 0 10px black;
+}
+.gallery-zoom{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.gallery-zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.gallery-zoom:hover img{
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+}
+.gallery-figure figcaption{
+    padding: 10px;
+}
+/* ----------------- Main News Section --------------- */
+.main-friends-section-section{
+    width: 1100px;
+    margin: auto;
+}
+.main
