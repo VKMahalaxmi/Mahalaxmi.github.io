@@ -1,2 +1,2 @@
-# MahalaxmiSundar.github.io
+# Mahalaxmi.github.io
 my first website
